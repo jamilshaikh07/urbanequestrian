@@ -154,12 +154,18 @@ img {
     font-weight: 700;
     color: var(--color-primary);
     letter-spacing: 1px;
+    white-space: nowrap;
 }
 
 .logo-img {
     height: 45px;
-    width: auto;
+    width: 45px;
+    min-width: 45px;
+    max-height: 45px;
+    max-width: 45px;
+    object-fit: contain;
     margin-right: 15px;
+    flex-shrink: 0;
 }
 
 .nav-links {
@@ -530,12 +536,16 @@ img {
    ========================================= */
 @media (max-width: 768px) {
     .logo {
-        font-size: 1.3rem;
+        font-size: 1.25rem;
     }
 
     .logo-img {
         height: 35px;
-        margin-right: 10px;
+        width: 35px;
+        min-width: 35px;
+        max-height: 35px;
+        max-width: 35px;
+        margin-right: 8px;
     }
 
     .hero {
