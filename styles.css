@@ -147,6 +147,8 @@ img {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
     font-family: var(--font-heading);
     font-size: 1.8rem;
     font-weight: 700;
