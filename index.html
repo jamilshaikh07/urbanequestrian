@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Urban Equestrian offers premium countryside trail rides, 1-hour pleasure rides, and professional horse riding lessons. Experience the elegance of riding.">
+    <title>Urban Equestrian | Premium Horse Riding Experiences</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Urban Equestrian</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content animate-on-scroll">
+            <h1>Experience the Elegance of Riding</h1>
+            <p>Discover tranquility and adventure through our exclusive countryside rides and professional lessons.</p>
+            <a href="#services" class="btn btn-primary">Discover Services</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section" id="services">
+        <div class="container">
+            <div class="section-title animate-on-scroll">
+                <h2>Our Premium Services</h2>
+                <div class="underline"></div>
+                <p>Tailored equestrian experiences for riders of all levels.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card animate-on-scroll">
+                    <div class="service-img">
+                        <!-- Replace src with your local image: assets/images/trail.jpg -->
+                        <img src="assets/images/optimized/trail_01_service.jpg" alt="Countryside Trail Rides">
+                    </div>
+                    <div class="service-info">
+                        <h3>Countryside Trail Rides</h3>
+                        <p>Escape the city and immerse yourself in nature on our guided trail rides through scenic
+                            landscapes and peaceful countryside paths.</p>
+                        <ul class="service-details">
+                            <li><span class="icon">⌛</span> Duration: 2-3 Hours</li>
+                            <li><span class="icon">👥</span> Group Size: Max 4</li>
+                            <li><span class="icon">💎</span> ₹2,500 / Session</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card animate-on-scroll">
+                    <div class="service-img">
+                        <!-- Replace src with your local image: assets/images/pleasure.jpg -->
+                        <img src="assets/images/optimized/trail_02_service.jpg" alt="1 Hour Pleasure Rides">
+                    </div>
+                    <div class="service-info">
+                        <h3>1 Hour Pleasure Rides</h3>
+                        <p>Perfect for beginners or those seeking a relaxing break. A gentle, guided ride focusing on
+                            pure enjoyment and connection with the horse.</p>
+                        <ul class="service-details">
+                            <li><span class="icon">⌛</span> Duration: 1 Hour</li>
+                            <li><span class="icon">👥</span> Group Size: Variable</li>
+                            <li><span class="icon">💎</span> ₹1,200 / Session</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card animate-on-scroll">
+                    <div class="service-img">
+                        <!-- Replace src with your local image: assets/images/lessons.jpg -->
+                        <img src="assets/images/optimized/arena_03_service.jpg" alt="Horse Riding Lessons">
+                    </div>
+                    <div class="service-info">
+                        <h3>Horse Riding Lessons</h3>
+                        <p>Professional instruction for all levels, from complete beginners to advanced riders looking
+                            to refine their technique.</p>
+                        <ul class="service-details">
+                            <li><span class="icon">⌛</span> Duration: 45 Min Session</li>
+                            <li><span class="icon">📅</span> Package: 10 Sessions</li>
+                            <li><span class="icon">💎</span> ₹10,000 / Package</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery section bg-light" id="gallery">
+        <div class="container">
+            <div class="section-title animate-on-scroll">
+                <h2>Moments Captured</h2>
+                <div class="underline"></div>
+                <p>Glimpses of our majestic horses and unforgettable experiences.</p>
+            </div>
+
+            <div class="gallery-filters animate-on-scroll">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="trail">Trail Rides</button>
+                <button class="filter-btn" data-filter="arena">Arena</button>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- Trail Category -->
+                <div class="gallery-item animate-on-scroll" data-category="trail">
+                    <img src="assets/images/optimized/trail_01_gallery.jpg" alt="Trail Ride 1">
+                </div>
+                <div class="gallery-item animate-on-scroll" data-category="trail">
+                    <img src="assets/images/optimized/trail_02_gallery.jpg" alt="Trail Ride 2">
+                </div>
+                <div class="gallery-item animate-on-scroll" data-category="trail">
+                    <img src="assets/images/optimized/trail_03_gallery.jpg" alt="Trail Ride 3">
+                </div>
+                <div class="gallery-item animate-on-scroll" data-category="trail">
+                    <img src="assets/images/optimized/hero_horse_gallery.jpg" alt="Trail View">
+                </div>
+
+                <!-- Arena Category -->
+                <div class="gallery-item animate-on-scroll" data-category="arena">
+                    <img src="assets/images/optimized/arena_01_gallery.jpg" alt="Arena Riding 1">
+                </div>
+                <div class="gallery-item animate-on-scroll" data-category="arena">
+                    <img src="assets/images/optimized/arena_02_gallery.jpg" alt="Arena Riding 2">
+                </div>
+                <div class="gallery-item animate-on-scroll" data-category="arena">
+                    <img src="assets/images/optimized/arena_03_gallery.jpg" alt="Arena Riding 3">
+                </div>
+                <div class="gallery-item animate-on-scroll" data-category="arena">
+                    <img src="assets/images/optimized/arena_04_gallery.jpg" alt="Arena Riding 4">
+                </div>
+
+                <!-- Other/Sunset -->
+                <div class="gallery-item animate-on-scroll" data-category="arena">
+                    <img src="assets/images/optimized/sunset_01_gallery.jpg" alt="Sunset at the Arena">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer class="footer" id="contact">
+        <div class="container footer-content animate-on-scroll">
+            <div class="footer-brand">
+                <h2>Urban Equestrian</h2>
+                <p>Elevating the art of horse riding in the city.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/urbanequestrians" target="_blank" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2"
+                            fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: booking@urbanequestrian.in</p>
+                <p>Phone: +91 98765 43210</p>
+                <p>Location: The Outskirts, Countryside Estates</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Urban Equestrian. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox container -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
