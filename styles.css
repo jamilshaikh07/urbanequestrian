@@ -156,6 +156,12 @@ img {
     letter-spacing: 1px;
 }
 
+.logo-img {
+    height: 45px;
+    width: auto;
+    margin-right: 15px;
+}
+
 .nav-links {
     display: flex;
     gap: 2rem;
@@ -523,6 +529,20 @@ img {
    Responsive Design
    ========================================= */
 @media (max-width: 768px) {
+    .logo {
+        font-size: 1.3rem;
+    }
+
+    .logo-img {
+        height: 35px;
+        margin-right: 10px;
+    }
+
+    .hero {
+        background-attachment: scroll;
+        background-position: center;
+    }
+
     .hero h1 {
         font-size: 2.5rem;
     }
